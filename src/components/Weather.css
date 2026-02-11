@@ -1,8 +1,8 @@
 .weather{
     place-self: center;
-    padding: 40px;
+    padding: 100px 40px;
     border-radius: 10px;
-    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    background-image: linear-gradient(to left bottom, #2aa0b8, #1fa7b8, #1baeb6, #22b5b3, #30bbae);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,4 +72,10 @@
 .weather__data img{
     width: 26px;
     margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .weather{
+        
+    }
 }

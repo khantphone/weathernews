@@ -6,9 +6,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Barlow", sans-serif;
+  overflow: hidden;
 }
 .app{
   min-height: 100vh;
   display: grid;
-  background: #e2d4ff;
+  
 }
