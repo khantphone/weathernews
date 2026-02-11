@@ -44,7 +44,7 @@ const Weather = () => {
         try {
 
             const query = isDefaultNakano
-                ? `lat=35.7074&lon=139.6655` // 中野区を中心に
+                ? `lat=35.707   4&lon=139.6655` // 中野区を中心に
                 : `q=${city},JP`;
 
             const url =
